@@ -6,5 +6,4 @@
 ## Results
   * The district summary was affected across the board. Each category decreased after removing the 9th grade scores for math and reading at Thomas High School. 
   ![Old_district_summary](https://github.com/chenylk/School-District-Analysis/blob/master/Resources/old_district_summary.PNG)
-  
   ![New_district_summary](https://github.com/chenylk/School-District-Analysis/blob/master/Resources/new_district_summary.PNG)
