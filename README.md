@@ -7,3 +7,7 @@
   * The district summary was affected across the board. Each category decreased after removing the 9th grade scores for math and reading at Thomas High School. 
   ![Old_district_summary](https://github.com/chenylk/School-District-Analysis/blob/master/Resources/old_district_summary.PNG)
   ![New_district_summary](https://github.com/chenylk/School-District-Analysis/blob/master/Resources/new_district_summary.PNG)
+  
+  * The school summary was unchanged for all schools except for Thomas High School, where the 9th grade scores were removed. The ninth grade scores significantly pulled up the average scores in that school. The % passing in both math and reading and overall passing rate dropped by about 30 percent.
+  ![Old_school_summary](https://github.com/chenylk/School-District-Analysis/blob/master/Resources/old_school_summary.PNG)
+  ![new_school_summary](https://github.com/chenylk/School-District-Analysis/blob/master/Resources/new_school_summary.PNG)
