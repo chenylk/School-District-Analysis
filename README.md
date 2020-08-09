@@ -20,6 +20,7 @@
    ![reading_scores](https://github.com/chenylk/School-District-Analysis/blob/master/Resources/reading_scores_bygrade.PNG)
    
    2. For the scores by school spending, the only group that changed was the $630-644 range because Thomas High School fell in that range and only Thomas' grades were changed in the analysis. The average reading and math score stayed reletively the same but the % passing in math, reading and overall all dropped in this per capita range. 
+   
    ![old_spendingscores](https://github.com/chenylk/School-District-Analysis/blob/master/Resources/old_schoolspending.PNG)
    ![new_spending_scores](https://github.com/chenylk/School-District-Analysis/blob/master/Resources/new_schoolspending.PNG)
   
