@@ -16,6 +16,7 @@
   
   * Replacing ninth-grade scores effects:
    1. The Thomas High School ninth grade math and reading scores were high amongst their ninth grade peers at other high schools. They ranked third in math and and fifth in reading. Removing their scores brought the overall average for the ninth graders in the district down. 
+   
    ![math_scores](https://github.com/chenylk/School-District-Analysis/blob/master/Resources/math_scores_bygrade.PNG)
    ![reading_scores](https://github.com/chenylk/School-District-Analysis/blob/master/Resources/reading_scores_bygrade.PNG)
    
@@ -25,17 +26,19 @@
    ![new_spendingscores](https://github.com/chenylk/School-District-Analysis/blob/master/Resources/new_schoolspending.PNG)
    
    3. The school size data was affected similarly to the school spending data. Since Thomas High School was in the medium school size range, the small and large school size data were unaffected. Just like for school spending, the average reading and math scores stayed reletively the same and the % passing in math, reading, and overall all decreased. 
+   
    ![old_schoolsize](https://github.com/chenylk/School-District-Analysis/blob/master/Resources/old_schoolsize.PNG)
    ![new_schoolsize](https://github.com/chenylk/School-District-Analysis/blob/master/Resources/new_schoolsize.PNG)
    
    4. The school type data was affected similarly to the school size and school spending data. Only the charter school data was affected because Thomas High School was considered a charter school. The district school data remained unchanged. The average scores stayed reletively the same and the % passing in each category decreased with the removal of the 9th grade data from Thomas High School. 
+   
    ![old_schooltype](https://github.com/chenylk/School-District-Analysis/blob/master/Resources/old_schooltype.PNG)
    ![new_schooltype](https://github.com/chenylk/School-District-Analysis/blob/master/Resources/new_schooltype.PNG)
    
 
 ## Summary
  * After updating the questionable results from the 9th grade class at Thomas High School, there were several changes in the district data. Overall, the scores from those 9th grade students were good, so removing those brought the percentage of passing students down and the averages of the reading and math scores were slightly lower (by fractions of a percent). Also, Thomas High Schools individual performance was significantly altered. Their passing rates decreased significantly after removing the 9th grade data. I think the percentages are so different because the code does not account for the change in student popoulation after you make the 9th graders' scores at Thomas High School NaN. Lastly, the different categories of data analyzed were changed because of this data removal. School type, size and spending categories by schools were altered in their reading and math scores and percent passing percentage.  
- * One item to keep in mind for this code is that the total student count was not altered when calculating percentages. So the 9th grade students were counted towards the total student count but not as a passing or failing student. Thus, the passing rates are highly questionable. 
+ * One item to keep in mind for this code is that the total student count was not altered when calculating percentages. So the 9th grade students were counted towards the total student count but not as a passing or failing student. Thus, the passing rates are lower than expected. 
  
    
 
